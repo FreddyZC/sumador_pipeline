@@ -1,0 +1,87 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jul  6 22:48:09 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/TAREAS/TAREA09/VERILOG/000sumador.vcd"
+[dumpfile_mtime] "Tue Jul  6 22:18:29 2021"
+[dumpfile_size] 21340
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/TAREAS/TAREA09/VERILOG/000SUMADOR.gtkw"
+[timestart] 1
+[size] 1305 600
+[pos] 46 7
+*-3.462526 17 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.CONDUCTUAL.
+[sst_width] 233
+[signals_width] 206
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-INPUTS
+@28
+testbench.clk
+testbench.reset_L
+@22
+testbench.dataA[3:0]
+testbench.dataB[3:0]
+testbench.idx[3:0]
+@200
+-INTERMEDIAS
+@28
+[color] 2
+testbench.CONDUCTUAL.SUM_PIPE.dataB_d[1:0]
+@c00028
+[color] 2
+testbench.CONDUCTUAL.SUM_PIPE.dataA_d[1:0]
+@28
+(0)testbench.CONDUCTUAL.SUM_PIPE.dataA_d[1:0]
+(1)testbench.CONDUCTUAL.SUM_PIPE.dataA_d[1:0]
+@1401200
+-group_end
+@28
+[color] 2
+testbench.CONDUCTUAL.SUM_PIPE.acarreo0_d
+[color] 2
+testbench.CONDUCTUAL.SUM_PIPE.sum10_d[1:0]
+@c00028
+[color] 2
+testbench.CONDUCTUAL.SUM_PIPE.sum30_d[3:0]
+@28
+[color] 2
+(0)testbench.CONDUCTUAL.SUM_PIPE.sum30_d[3:0]
+[color] 2
+(1)testbench.CONDUCTUAL.SUM_PIPE.sum30_d[3:0]
+[color] 2
+(2)testbench.CONDUCTUAL.SUM_PIPE.sum30_d[3:0]
+[color] 2
+(3)testbench.CONDUCTUAL.SUM_PIPE.sum30_d[3:0]
+@1401208
+-group_end
+@c00022
+[color] 2
+testbench.CONDUCTUAL.idx_d[3:0]
+@28
+(0)testbench.CONDUCTUAL.idx_d[3:0]
+(1)testbench.CONDUCTUAL.idx_d[3:0]
+(2)testbench.CONDUCTUAL.idx_d[3:0]
+(3)testbench.CONDUCTUAL.idx_d[3:0]
+@1401200
+-group_end
+@200
+-DISCREPANCIA
+@28
+[color] 1
+testbench.PROBADOR.discrepancia
+@200
+-OUTPUTS
+@22
+[color] 7
+testbench.idx_dd_out[3:0]
+[color] 7
+testbench.sum30_dd_out[3:0]
+[color] 5
+testbench.idx_dd_out_synt[3:0]
+[color] 5
+testbench.sum30_dd_out_synt[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
